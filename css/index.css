@@ -67,8 +67,27 @@ p {
 }
 
 .container {
-    width: 800px;
+    width: 828px;
     margin: 0 auto;
+}
+
+.headerTop {
+    display: flex;
+    align-items: flex-end;
+    margin-top: 20px;
+    margin-bottom: 37px;
+    
+}
+
+.navBar {
+    display: flex;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.navBar a {
+    text-decoration: none;
+    color: black;
 }
 
 .top-content {
