@@ -115,9 +115,9 @@ p {
 }
 
 .middle-content .boxes {
-    display: flex;
+    /* display: flex;
     flex-wrap: wrap;
-    justify-content: space-evenly;
+    justify-content: space-evenly; */
 }
 
 .middle-content .boxes .box {
@@ -129,6 +129,51 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.level {
+    display: flex;
+
+}
+
+#teal {
+    background-color: teal;
+}
+
+#gold {
+    background-color: gold;
+}
+
+#cadetblue {
+    background-color: cadetblue;
+}
+
+#coral {
+    background-color: coral;
+}
+
+#crimson {
+    background-color: crimson;
+}
+
+#forestgreen {
+    background-color: forestgreen;
+}
+
+#darkorchid {
+    background-color: darkorchid;
+}
+
+#hotpink {
+    background-color: hotpink;
+}
+
+#indigo {
+    background-color: indigo;
+}
+
+#dodgerblue {
+    background-color: dodgerblue;
 }
 
 .bottom-content {
