@@ -270,3 +270,26 @@ footer nav a {
      padding-bottom: 30px; 
      padding-left: 20px;
  }
+
+ /* BLOG CODE HERE */
+
+ .blogTopContent {
+     padding: 30px;
+     border-top: 1px dashed black;
+     border-bottom: 1px dashed black;
+ }
+
+ .blogMidContent div, h2, p {
+    padding: 10px;
+ }
+
+ .secondLevel {
+     padding-left: 100px;
+ }
+
+ .blogBottomContent {
+    padding: 20px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+    padding-bottom: 20px;
+ }
