@@ -66,6 +66,8 @@ p {
     line-height: 1.4;
 }
 
+/* HOME PAGE CODE  */
+
 .container {
     width: 828px;
     margin: 0 auto;
@@ -207,4 +209,20 @@ footer nav {
 footer nav a {
     color: white;
     text-decoration: none;
+}
+
+/* ABOUT PAGE CODE */
+
+.container-about-page {
+    width: 828px;
+    margin: 0 auto;
+}
+
+.aboutMidContent {
+    display: flex;
+
+}
+
+.aboutStage {
+    display: flex;
 }
