@@ -40,19 +40,19 @@ I would say it gives your code meaning. It makes it clearer to read for the next
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
-
+Display: inline-block allows to set the width and height on the element. Display: inline does not respect top and bottom margins.
 
 3. What are the 4 areas of the box model?
 
-
+The four areas are: content (center), one layer out is padding, the next layer out is the border, and the final layer is the margin.
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
-
+It works across the main axis.
 
 5. Explain why git is valuable to a team of developers.
 
-
+Git is extremely valuable to a team of developers because someone creates the master  with the "skeleton" content. From there, the rest of the team can divide the pages amongst themselves, create branches to work on and track changes. Then once the branches are ready, they can merge them back to the master. This allows the team to work simultaneously without stepping on each other's toes. 
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section *will* prevent you from passing this challenge.
 
@@ -104,7 +104,7 @@ You will also notice there are 10 boxes on the home page that need background co
 * [X] Copy and paste your home page navigation and header into the about page
 * [X] Update the header image with the about page image
 * [X] Link the `Home` navigation item back to the `index.html` page.
-* [ ] Build the rest of the about page layout to match the design
+* [X] Build the rest of the about page layout to match the design
 
 In your solution, it is essential that you follow best practices and produce clean and professional results. Schedule time to review, refine, and assess your work and perform basic professional polishing including spell-checking and grammar-checking on your work. It is better to submit a challenge that meets MVP than one that attempts too much and does not.
 

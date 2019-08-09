@@ -90,6 +90,7 @@ p {
 .navBar a {
     text-decoration: none;
     color: black;
+    
 }
 
 .top-content {
@@ -104,6 +105,12 @@ p {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
+}
+
+.text-container {
+    display: inline-block;
+    margin-top: 20px;
+
 }
 
 .middle-content {
@@ -182,10 +189,12 @@ p {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
+
 }
 
 .bottom-content .text-container {
     padding-right: 4%;
+    
 }
 
 .bottom-content .text-container:last-child {
@@ -218,11 +227,46 @@ footer nav a {
     margin: 0 auto;
 }
 
-.aboutMidContent {
-    display: flex;
-
+.aboutTopContent {
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-bottom: 20px;
 }
 
-.aboutStage {
+.aboutStageIn {
     display: flex;
 }
+
+.aboutStageOut {
+    border-top: 1px dashed black;
+    padding-top: 30px;
+    padding-left: 15px;
+    display:flex;
+    flex-flow: wrap;
+
+    
+    
+}
+
+.inMidContent  {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    padding: 20px;
+    border-bottom: 1px dashed black;
+}
+ .inMidContent p {
+     padding-bottom: 20px;
+ }
+
+ .aboutImg {
+     padding-bottom: 20px;
+ }
+
+ .aboutBottomContent {
+     display: flex;
+     flex-direction: column;
+     padding-top: 30px; 
+     padding-bottom: 30px; 
+     padding-left: 20px;
+ }
