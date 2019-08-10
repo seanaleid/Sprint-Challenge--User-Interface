@@ -75,29 +75,40 @@ p {
 
 .headerTop {
     display: flex;
-    align-items: flex-end;
-    margin-top: 20px;
-    margin-bottom: 37px;
-    
+    padding-top: 20px;
+    padding-bottom: 37px;
 }
 
+.road {
+    width: 100%;
+}
+
+/* .headerPic {
+    width: 100%;
+
+} */
+
 .navBar {
-    display: flex;
-    margin-left: 20px;
-    margin-right: 20px;
+    display: flex !important;
+    
 }
 
 .navBar a {
+    display: flex;
+    justify-content: space-between;
     text-decoration: none;
     color: black;
-    
+    align-items: flex-end;
+    align-content: center;
+    padding-left: 43.2px;
+    padding-right: 43.2px;
 }
+
 
 .top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
-    margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
@@ -109,17 +120,15 @@ p {
 
 .text-container {
     display: inline-block;
-    margin-top: 20px;
-
 }
 
 .middle-content {
-    margin-bottom: 20px;
+    
     border-bottom: 1px dashed black;
 }
 
 .middle-content h2 {
-    padding: 0 2%;
+    padding: 20px;
     margin-bottom: 0;
 }
 
@@ -133,7 +142,6 @@ p {
     width: 12.5%;
     height: 100px;
     background: black;
-    margin: 20px 2.5%;
     color: white;
     display: flex;
     align-items: center;
@@ -142,7 +150,13 @@ p {
 
 .level {
     display: flex;
+    padding: 20px; 
+    justify-content: space-around;
+}
 
+.box {
+    display: flex;
+    padding: 20px; 
 }
 
 #teal {
@@ -187,19 +201,10 @@ p {
 
 .bottom-content {
     display: flex;
-    margin: 0 2% 20px;
+    padding: 10px;
     justify-content: space-around;
-
 }
 
-.bottom-content .text-container {
-    padding-right: 4%;
-    
-}
-
-.bottom-content .text-container:last-child {
-    padding-right: 0;
-}
 
 footer {
     width: 100%;
@@ -235,32 +240,22 @@ footer nav a {
 
 .aboutStageIn {
     display: flex;
-}
-
-.aboutStageOut {
-    border-top: 1px dashed black;
-    padding-top: 30px;
-    padding-left: 15px;
-    display:flex;
-    flex-flow: wrap;
-
-    
-    
+    justify-content: space-between;
 }
 
 .inMidContent  {
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-    padding: 20px;
     border-bottom: 1px dashed black;
+    width: 50%;
 }
  .inMidContent p {
      padding-bottom: 20px;
  }
 
  .aboutImg {
-     padding-bottom: 20px;
+     width: 40%;
  }
 
  .aboutBottomContent {
@@ -270,6 +265,12 @@ footer nav a {
      padding-bottom: 30px; 
      padding-left: 20px;
  }
+
+button {
+    width: 50%;
+    border-radius: 10px; 
+    
+}
 
  /* BLOG CODE HERE */
 
