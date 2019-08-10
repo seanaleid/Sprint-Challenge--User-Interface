@@ -70,6 +70,7 @@ p {
 
 .container {
     width: 828px;
+    
     margin: 0 auto;
 }
 
@@ -82,11 +83,6 @@ p {
 .road {
     width: 100%;
 }
-
-/* .headerPic {
-    width: 100%;
-
-} */
 
 .navBar {
     display: flex !important;
@@ -103,7 +99,6 @@ p {
     padding-left: 43.2px;
     padding-right: 43.2px;
 }
-
 
 .top-content {
     display: flex;
@@ -205,7 +200,6 @@ p {
     justify-content: space-around;
 }
 
-
 footer {
     width: 100%;
     background: black;
@@ -232,65 +226,110 @@ footer nav a {
     margin: 0 auto;
 }
 
-.aboutTopContent {
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-bottom: 20px;
+.city img {
+    width: 100%;
 }
 
-.aboutStageIn {
+.aboutTopContent {
+    padding: 20px;
+    justify-content: flex-start;
+}
+
+.aboutMidContent {
+    border-top: 1px dashed black;
+}
+
+.aboutRow {
     display: flex;
-    justify-content: space-between;
+    padding: 30px;
+}
+
+.aboutBox {
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black; 
+    width: 50%;
+}
+
+.aboutBox .aboutImg {
+    padding-bottom: 10px; 
+}
+.aboutImg img {
+    width: 100%;
+
+}
+.aboutBox p {
+    padding-bottom: 10px; 
+}
+
+.aboutBottomContent {
+    padding: 20px; 
+}
+
+.button {
+    width: 25%;
+    height: 30px; 
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+/* .aboutStageIn {
+    display: flex;
 }
 
 .inMidContent  {
     display: flex;
     flex-direction: column;
-    justify-content: space-around;
     border-bottom: 1px dashed black;
-    width: 50%;
+    width: 100%;
+    
+
 }
- .inMidContent p {
-     padding-bottom: 20px;
- }
 
- .aboutImg {
-     width: 40%;
- }
+.inMidContent h2 {
+    padding-top: 10px; 
+}
 
- .aboutBottomContent {
-     display: flex;
-     flex-direction: column;
-     padding-top: 30px; 
-     padding-bottom: 30px; 
-     padding-left: 20px;
- }
+.inMidContent p {
+    padding-bottom: 20px;
+}
+
+
+.aboutImg {
+    
+    height: 100%;
+}
+
+.aboutBottomContent {
+    display: flex;
+    flex-direction: column;
+    padding: 20px; 
+}
 
 button {
-    width: 50%;
+    width: 30%;
+    height: 30px;
+    padding-bottom: 10px; 
     border-radius: 10px; 
+    justify-content: center;
     
-}
+} */
 
  /* BLOG CODE HERE */
 
- .blogTopContent {
-     padding: 30px;
-     border-top: 1px dashed black;
-     border-bottom: 1px dashed black;
- }
+.blogTopContent {
+    padding: 30px;
+    border-top: 1px dashed black;
+    border-bottom: 1px dashed black;
+}
 
- .blogMidContent div, h2, p {
-    padding: 10px;
- }
 
- .secondLevel {
-     padding-left: 100px;
- }
+.secondLevel {
+    padding-left: 100px;
+}
 
- .blogBottomContent {
+.blogBottomContent {
     padding: 20px;
     border-top: 1px dashed black;
     border-bottom: 1px dashed black;
     padding-bottom: 20px;
- }
+}
