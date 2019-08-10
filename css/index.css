@@ -231,8 +231,8 @@ footer nav a {
 }
 
 .aboutTopContent {
-    padding: 20px;
-    justify-content: flex-start;
+    padding: 30px;
+    /* justify-content: flex-start; */
 }
 
 .aboutMidContent {
@@ -241,7 +241,7 @@ footer nav a {
 
 .aboutRow {
     display: flex;
-    padding: 30px;
+    padding: 25px;
 }
 
 .aboutBox {
@@ -250,9 +250,23 @@ footer nav a {
     width: 50%;
 }
 
+.aboutLeft {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 20px;
+    border-bottom: 1px dashed black; 
+    width: 50%;
+    margin-left: 30px;
+}
+
 .aboutBox .aboutImg {
     padding-bottom: 10px; 
 }
+
+.aboutLeft .aboutImg {
+    padding-bottom: 10px;
+}
+
 .aboutImg img {
     width: 100%;
 
@@ -261,8 +275,15 @@ footer nav a {
     padding-bottom: 10px; 
 }
 
+.aboutLeft p {
+    padding-bottom: 10px; 
+}
+
 .aboutBottomContent {
-    padding: 20px; 
+    padding-top: 10px;
+    padding-right: 30px; 
+    padding-left: 30px; 
+    padding-bottom: 30px; 
 }
 
 .button {
@@ -272,47 +293,6 @@ footer nav a {
     border: 1px solid black;
 }
 
-/* .aboutStageIn {
-    display: flex;
-}
-
-.inMidContent  {
-    display: flex;
-    flex-direction: column;
-    border-bottom: 1px dashed black;
-    width: 100%;
-    
-
-}
-
-.inMidContent h2 {
-    padding-top: 10px; 
-}
-
-.inMidContent p {
-    padding-bottom: 20px;
-}
-
-
-.aboutImg {
-    
-    height: 100%;
-}
-
-.aboutBottomContent {
-    display: flex;
-    flex-direction: column;
-    padding: 20px; 
-}
-
-button {
-    width: 30%;
-    height: 30px;
-    padding-bottom: 10px; 
-    border-radius: 10px; 
-    justify-content: center;
-    
-} */
 
  /* BLOG CODE HERE */
 
